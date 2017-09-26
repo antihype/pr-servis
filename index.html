@@ -4,8 +4,10 @@
  <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,inital-scale=1">
+  <meta name="keywords" content="владивосток, ремонт, планшет, ноутбук, телефон, мобильный, сервис, залог, скупка">
+  <meta name="description" content="Сервисный центр во Владивостоке. Ремонт, скупка и залог мобильных телефонов, планшетов, ноутбуков.">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet">
 
@@ -17,6 +19,10 @@
 <div class="top-background">
 <div class="top-overlay">
  <header class="page-header">
+  <div class="page-header__user-block">
+  <a href="#" class="login">Вход</a>
+</div>
+
   <ul class="main-nav">
    <li class="main-nav__item">
     <a href="#repair">Ремонт</a>
@@ -62,7 +68,7 @@
     <span>Магазин "Дефриз" <span>10:00-19:00</span></span>
     <br>
     <br>
-    Площадь баляева<br>
+    Площадь Баляева<br>
     <span>Адмирала Юмашева 2 <span>9:00-21:00</span></span>
     </p>
    </div>
@@ -192,7 +198,8 @@
 
     <li class="shop__feature">
      Реально низкие цены, а при регистрации
-     на нашем сайте еще ниже...
+     на нашем сайте вы получаете скидку
+     3%.
     </li>
 
     <li class="shop__feature">
@@ -285,7 +292,7 @@
     <span>Магазин "Дефриз" <span>10:00-19:00</span></span>
     <br>
     <br>
-    Площадь баляева<br>
+    Площадь Баляева<br>
     <span>Адмирала Юмашева 2 <span>9:00-21:00</span></span>
     <br>
     <br>
@@ -303,6 +310,37 @@
   </div>
 
    </footer>
+
+<section class="modal-content">
+<button class="modal-content__close" type="button" title="Закрыть">Закрыть</button>
+<h2 class="section-title form__title">Вход в аккаунт</h2>
+<form class="form" action="#" method="post">
+  <div class="form__items">
+<label class="form__item">
+  <span>Номер телефона или эл. почта</span>
+  <input type="text" name="username">
+</label>
+
+<label class="form__item">
+  <span>Пароль</span>
+  <input type="password" name="password">
+</label>
+
+<label class="form__item form__item--lic">
+  <input type="checkbox">
+  <a href="#">Я принимаю лицензионное соглашение</a>
+  </label>
+</div>
+<input class="form__action" type="submit" value="Войти">
+</form>
+
+<div class="modal-content__afteform">
+   <a href="reg.html" data-title="Скидка 3% при регистрации на сайте" class="registr">регистрация</a>
+   <a href="#">забыл пароль</a>
+  </div>
+</section>
+<script type="text/javascript" async src="js/form.js">
+</script>
 
   <script type="text/javascript" async src="js/scroll.js"></script>
   <script type="text/javascript">(function() {
