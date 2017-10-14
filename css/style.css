@@ -846,7 +846,7 @@ left: 30px;
 }
 
 .form__title {
-	color: #000000;
+	color: #ffffff;
 }
 
 
@@ -864,7 +864,9 @@ left: 30px;
 }
 .form__username,
 .form__password,
-.form__password-repeat {
+.form__password-repeat,
+.form__surname,
+.form__number {
 	display: block;
 	width: 96%;
 	margin-top: 10px;
@@ -1565,4 +1567,119 @@ left: 30px;
 	.choise__action {
 		margin-top: auto;
 	}
+}
+
+.review-intro {
+	margin: 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.review-criterion {
+	font-weight: 300;
+}
+
+.radio {
+	display: none;
+}
+
+.form__radios {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.form__radios label {
+	display: block;
+	margin-right: 20px;
+
+	text-align: center;
+}
+
+.form__radios label:last-child {
+	margin-right: 0;
+}
+
+.radio-indicator {
+	position: relative;
+
+	display: block;
+	width: 19px;
+	height: 19px;
+
+	border: 1px solid #000000;
+	border-radius: 50%;
+
+	background-color: #ffffff;
+}
+
+.radio:checked 
++ .radio-indicator::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 12px;
+	height: 12px;
+	margin-top: -5.5px;
+	margin-left: -6px;
+
+	border-radius: 50%;
+
+	background-color: #000000;
+}
+
+.radio:checked
++ .radio-indicator-1::before {
+	background-color: #e21611;
+}
+
+.radio:checked
++ .radio-indicator-2::before {
+	background-color: #e26511;
+}
+
+.radio:checked
++ .radio-indicator-3::before {
+	background-color: #e6da1a;
+}
+
+.radio:checked
++ .radio-indicator-4::before {
+	background-color: #a6e51f;
+}
+
+.radio:checked
++ .radio-indicator-5::before {
+	background-color: #2ddd16;
+}
+
+.review-flex {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+
+	.review-flex {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.review-message {
+	display: block;
+	width: 96%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 2%;
+
+	border: none;
+	outline: none;
+	background: #d7d7d7;
+
+	resize: none;
 }

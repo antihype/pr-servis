@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,inital-scale=1">
+  <meta name="keywords" content="владивосток, ремонт, планшет, ноутбук, телефон, мобильный, сервис, залог, скупка, регистрация">
+  <meta name="description" content="Регистрация на сайте сервисного центра во Владивостоке. Ремонт, скупка и залог мобильных телефонов, планшетов, ноутбуков.">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet">
+
+  <title>Сервисный центр - состояние ремонта</title>
+ </head>
+
+ <body class="inner-page">
+ 	<div class="top-background">
+ 		<div class="top-overlay">
+<div class="inner-page__content">
+ 	<header class="page-header">
+
+  <ul class="main-nav">
+   <li class="main-nav__item">
+    <a href="index.html">Главная</a>
+   </li>
+
+   <li class="main-nav__item main-nav__item--shop">
+    <a href="#">Магазин</a>
+   </li>
+  </ul>
+ </header>
+
+
+ 	<h2 class="section-title form__title">Спасибо, что выбрали нас!</h2>
+  <p class="review-intro">Благодарим вас за использование услуг нашего сервисного центра.
+  Пожалуйста, оцените качество нашей работы в критериях, предоставленных ниже, по пятибальным шкалам</p>
+  <form class="review-form" action="#" method="post">
+    <div class="form__items">
+<label class="form__item">
+  <span>Фамилия</span>
+  <input class="form__surname" type="text" name="surname">
+</label>
+<span class="qs1"></span>
+
+<label class="form__item">
+  <span>Номер квитанции</span>
+  <input class="form__number" type="text" name="receipt">
+</label>
+<div class="review-flex">
+  <div>
+  <h3 class="review-criterion">Скорость ремонта</h3>
+<div class="form__radios form__radios--speed">
+  <label>1<input class="radio radio-1" type="radio" name="speed" value="1"><span class="radio-indicator radio-indicator-1"></span></label>
+  <label>2<input class="radio radio-2" type="radio" name="speed" value="2"><span class="radio-indicator radio-indicator-2"></span></label>
+  <label>3<input class="radio radio-3" type="radio" name="speed" value="3" checked><span class="radio-indicator radio-indicator-3"></span></label>
+  <label>4<input class="radio radio-4" type="radio" name="speed" value="4"><span class="radio-indicator radio-indicator-4"></span></label>
+  <label>5<input class="radio radio-5" type="radio" name="speed" value="5"><span class="radio-indicator radio-indicator-5"></span></label>
+  </div>
+</div>
+<div>
+   <h3 class="review-criterion">Качество ремонта</h3>
+<div class="form__radios form__radios--qual">
+  <label>1<input class="radio radio-1" type="radio" name="qual" value="1"><span class="radio-indicator radio-indicator-1"></span></label>
+  <label>2<input class="radio radio-2" type="radio" name="qual" value="2"><span class="radio-indicator radio-indicator-2"></span></label>
+  <label>3<input class="radio radio-3" type="radio" name="qual" value="3" checked><span class="radio-indicator radio-indicator-3"></span></label>
+  <label>4<input class="radio radio-4" type="radio" name="qual" value="4"><span class="radio-indicator radio-indicator-4"></span></label>
+  <label>5<input class="radio radio-5" type="radio" name="qual" value="5"><span class="radio-indicator radio-indicator-5"></span></label>
+  </div>
+</div>
+<div>
+   <h3 class="review-criterion">Вежливость персонала</h3>
+<div class="form__radios form__radios--staff">
+  <label>1<input class="radio radio-1" type="radio" name="staff" value="1"><span class="radio-indicator radio-indicator-1"></span></label>
+  <label>2<input class="radio radio-2" type="radio" name="staff" value="2"><span class="radio-indicator radio-indicator-2"></span></label>
+  <label>3<input class="radio radio-3" type="radio" name="staff" value="3" checked><span class="radio-indicator radio-indicator-3"></span></label>
+  <label>4<input class="radio radio-4" type="radio" name="staff" value="4"><span class="radio-indicator radio-indicator-4"></span></label>
+  <label>5<input class="radio radio-5" type="radio" name="staff" value="5"><span class="radio-indicator radio-indicator-5"></span></label>
+  </div>
+</div>
+<div>
+  <h3 class="review-criterion">Стоимость ремонта</h3>
+<div class="form__radios form__radios--cost">
+  <label>1<input class="radio radio-1" type="radio" name="cost" value="1"><span class="radio-indicator radio-indicator-1"></span></label>
+  <label>2<input class="radio radio-2" type="radio" name="cost" value="2"><span class="radio-indicator radio-indicator-2"></span></label>
+  <label>3<input class="radio radio-3" type="radio" name="cost" value="3" checked><span class="radio-indicator radio-indicator-3"></span></label>
+  <label>4<input class="radio radio-4" type="radio" name="cost" value="4"><span class="radio-indicator radio-indicator-4"></span></label>
+  <label>5<input class="radio radio-5" type="radio" name="cost" value="5"><span class="radio-indicator radio-indicator-5"></span></label>
+  </div>
+</div>
+</div>
+<textarea class="review-message" rows="5" placeholder="Ваш комментарий"></textarea>
+<h3 class="review-criterion">Рекомендуете ли вы нас?</h3>
+<div class="form__radios">
+  <label>Да<input class="radio radio-recommend" type="radio" name="recommend" value="yes"><span class="radio-indicator radio-indicator-5"></span></label>
+</div>
+<input class="form__action" type="submit" value="Отправить">
+  </form>
+</div>
+
+</div>
+
+</div>
+  <script type="text/javascript" async src="js/review.js">
+  </script>
+ </body>
+</html>

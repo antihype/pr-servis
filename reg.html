@@ -12,9 +12,11 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet">
 
   <title>Сервисный центр - регистрация</title>
+   <script src='https://www.google.com/recaptcha/api.js'></script>
  </head>
 
  <body class="inner-page">
+
  	<div class="top-background">
  		<div class="top-overlay">
 <div class="inner-page__content">
@@ -32,7 +34,7 @@
  </header>
 
 
- 	<h2 class="section-title form__title">Вход в аккаунт</h2>
+ 	<h2 class="section-title form__title">Регистрация</h2>
 <form class="registration-form" action="#" method="post">
   <div class="form__items">
 <label class="form__item">
@@ -58,6 +60,8 @@
   <a href="#">Я принимаю лицензионное соглашение</a>
   </label>
 </div>
+<div class="g-recaptcha" data-sitekey="6LfDXTQUAAAAAE2aXwHG5qHN6TrnAIRG_6qGH-bU"></div>
+<div class="text-danger" id="recaptchaError"></div>
 <input class="form__action" type="submit" value="зарегистрироваться">
 </form>
 
@@ -72,5 +76,6 @@
 
 <script type="text/javascript" async src="js/form-reg.js">
 </script>
+
  </body>
 </html>
